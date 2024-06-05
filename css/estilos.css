@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    /* Estilos para la barra de navegación si deseas agregarla */
+  }
+  
+  .galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .imagen {
+    margin: 10px;
+  }
+  
+  .imagen img {
+    width: 200px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .iconos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .iconos img {
+    width: 30px;
+    transition: transform 0.3s ease; /* Agregamos una transición suave */
+  }
+  
+  /* Animación al pasar el cursor sobre los iconos */
+  .iconos img:hover {
+    transform: scale(1.2); /* Aumentamos el tamaño al pasar el cursor */
+  }
